@@ -1,9 +1,10 @@
 {
   "name": "@p9m/local-storage-service",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "localStorage wrapper for CRUD operations",
   "main": "dist/umd/index.js",
   "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
