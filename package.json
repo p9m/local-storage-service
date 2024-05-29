@@ -1,0 +1,32 @@
+{
+  "name": "local-storage-service",
+  "version": "1.0.0",
+  "description": "localStorage wrapper for CRUD operations",
+  "main": "dist/esm/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "prebuild": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p9m/local-storage-service.git"
+  },
+  "keywords": [
+    "localStorage",
+    "web",
+    "browser",
+    "CRUD"
+  ],
+  "author": "Purushotham Reddy Jakka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/p9m/local-storage-service/issues"
+  },
+  "homepage": "https://github.com/p9m/local-storage-service#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
