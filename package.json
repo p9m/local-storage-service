@@ -1,6 +1,6 @@
 {
   "name": "@p9m/local-storage-service",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "localStorage wrapper for CRUD operations",
   "main": "dist/umd/index.js",
   "module": "dist/esm/index.js",
@@ -27,8 +27,12 @@
   },
   "homepage": "https://github.com/p9m/local-storage-service#readme",
   "devDependencies": {
+    "@types/uuid": "^9.0.8",
     "typescript": "^5.4.5",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "uuid": "^10.0.0"
   }
 }
